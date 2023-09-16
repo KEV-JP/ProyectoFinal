@@ -1,0 +1,235 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+.logo{
+    position: absolute;
+    width: 100px;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+h1{
+    color: #00227d;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color:  #00227d;
+}
+
+a:hover {
+    color:  #00c6e9;
+}
+
+nav {
+    border-top: solid 1px #ffbc5a;
+    border-bottom: solid 1px#ffbc5a;
+    height: 50px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.post , .postcasa {
+    background-color: white;
+    border: 1px solid #ffbc5a;
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px #ffbc5a ;
+}
+.post:hover{
+    transform: scale(1.02);
+    transition: 1s ;
+}
+.postcasa:hover{
+    transform:translate(20px);
+    transition: 1s;
+    
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0067b2;
+}
+
+
+.subTitulo {
+    color: #999999;
+    font-size: 14px;
+}
+
+.texto {
+    font-size: 18px;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.secAside {
+    width: 250px;
+    margin: 10px;
+    margin-left: 45px;
+
+
+}
+
+.imgFamilia {
+    margin-top: 10px;
+    width: 200px;
+    height: 200px;
+    border: 30px;
+    border-radius: 10px;
+}
+.link{
+    color: rgb(148, 95, 148);
+}
+.link:hover{
+    color:rgb(216, 28, 216) ;
+}
+.img{
+    
+    width: 700px;
+    height: 300px;
+    margin-left: 150px;
+
+}
+.Modeloimg{
+    width: 300px;
+    margin-left: 340px;
+}
+
+.contact_form{	
+	width: 460px; 
+  height: auto;
+  margin: 80px auto;
+  margin-top: 20px;
+	border-radius: 10px;
+    border: solid 1px  #ffbc5a;  
+	padding-top: 10px;
+	padding-bottom: 20px;  
+  background-color: #fbfbfb; 
+  padding-left: 30px; 
+  box-shadow: 5px 5px #ffbc5a;
+}
+
+
+input{
+	background-color: #fbfbfb; 
+	width: 408px; 
+	height: 40px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	border-color: #0067b2; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+
+textarea{
+  background-color: #fbfbfb; 
+	width: 405px; 
+	height: 150px; 
+	border-radius: 5px;  
+	border-style: solid; 
+	border-width: 1px; 
+	margin-top: 10px;  
+	padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{
+    font-family: Arial, sans-serif;
+  display: block; 
+	float: center; 	
+}
+
+button {
+	height: 45px; 
+	padding-left: 5px;
+	padding-right: 5px; 	
+	margin-bottom: 20px; 
+	margin-top: 10px; 	
+	text-transform: uppercase;
+	background-color: #0067b2; 
+	border-color: #0067b2; 
+	border-style: solid; 
+	border-radius: 10px;	
+	width: 420px;   
+  cursor: pointer;
+}
+
+button p{
+	color: #fff; 
+}
+.volver{
+    background-color: #ffbc5a;
+    padding: 20px;
+    border-radius: 80% ;
+    position: absolute;
+    font-family: Arial, sans-serif;
+}
+.contactanos{
+    width: 25px;
+    height: 25px;
+}
+footer{
+    border: solid 1px  #ffbc5a;
+    height: 150px;
+    width: 95%;
+    box-shadow: 5px 5px  #ffbc5a;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    margin: 20px;
+
+
+}
+.credito{
+    font-family: Arial, sans-serif;
+    margin-left: 20px;
+}
+.secContactanos{
+    margin-right: 20px;
+}
+.secLogo{
+    width: 100px;
+    height: 90px;
+}
+.p{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+/* display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    
+    width: 100%;
+    height: 400px; */
+
+    .color1 {color: #ffbc5a;}
+.color2 {color: #ffde54;}
+.color3 {color: #00227d;}
+.color4 {color: #0067b2;}
+.color5 {color: #00c6e9;}
